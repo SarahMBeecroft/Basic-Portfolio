@@ -9,13 +9,13 @@ div {
 /* Adds background image to site */
 body {
   background-image: url("../../assets/images/stripes-light.png");
-  background-color: #cccccc;
+  background-color: white;
  }
 
 /* navbar container */
 .topnav {
   overflow: hidden;
-  background-color: #cccccc;
+  background-color: #4aaaa5;
 }
 
 /* Navbar links */
@@ -40,7 +40,7 @@ ul {
   list-style: none;
  }
 
-/* Makes h1 white */
+/* Makes h1 white and sets font*/
 h1 {
   display: inline-block;
   color: white;
@@ -50,7 +50,7 @@ h1 {
 
 /* Makes h2 teal */
 h2 {
-  color: 4aaaa5;
+  color: #4aaaa5;
 }
 
 /* Makes profile image round */
