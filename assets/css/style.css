@@ -15,7 +15,7 @@ body {
 /* navbar container */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #cccccc;
 }
 
 /* Navbar links */
@@ -39,12 +39,18 @@ ul {
   list-style: none;
  }
 
+/* Makes h1 white */
+h1 {
+  color: white;
+  font-family: font-family: Georgia, 'Times New Roman', Times, serif; 
+  }
+
 /* Makes profile image round */
 img {
     border-radius: 50%;
   }
   
 body {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
   }
