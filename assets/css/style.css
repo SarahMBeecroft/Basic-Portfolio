@@ -4,7 +4,6 @@ div {
   margin: auto;
   background: white;
   border: 1px solid #dddddd;
-  padding: 20px;
 }
 
 /* Adds background image to site */
@@ -24,6 +23,8 @@ header {
   overflow: hidden;
   background-color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid #dddddd;
+  height: 75px;
 }
 
 /* Navbar links */
@@ -61,15 +62,22 @@ h1 {
 h2 {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+  padding: 10px;
 }
 
 /* Image styling */
 img {
-    display: block;
-    margin: 0 auto; 
-    padding: 20px;
+
+    margin: 0 auto;
+    padding: 20px; 
     float: left;
   }
+
+.bio {
+  margin: 10px;
+  padding: 50px;
+}
   
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -124,14 +132,16 @@ input[type=submit]:hover {
 /* Footer style */
 .footer {
   width: 960px;
-  padding: 20px;
+  text-align: center;
 }
 
 footer {
   background-color: #666666;
-  padding: 10px; 
+  border-top: 8px solid #4aaaa5;
+  width: 960px;
 }
 
 #copyright {
   color: white;
 }
+
