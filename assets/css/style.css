@@ -4,7 +4,7 @@ div {
   margin: auto;
   background: white;
   border: 1px solid #dddddd;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* Adds background image to site */
@@ -63,11 +63,11 @@ h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Makes profile image round */
+/* Image styling */
 img {
-    border-radius: 50%;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; 
+    padding: 20px;
     float: left;
   }
   
@@ -82,7 +82,7 @@ body {
   width: 960px;
   margin: auto;
   border: 1px solid #dddddd;
-  padding: 10px;
+  padding: 20px;
   background-color: white;
 }
 
@@ -123,11 +123,13 @@ input[type=submit]:hover {
 
 /* Footer style */
 .footer {
-  width: 960px
+  width: 960px;
+  padding: 20px;
 }
 
 footer {
   background-color: #666666;
+  padding: 10px; 
 }
 
 #copyright {
