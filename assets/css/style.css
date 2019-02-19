@@ -3,6 +3,7 @@ div {
   width: 960px;
   margin: auto;
   background: white;
+  border: 1px solid #dddddd;
   padding: 10px;
 }
 
@@ -12,10 +13,17 @@ body {
   background-color: white;
  }
 
+/* Header style */ 
+header {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+
 /* navbar container */
 .topnav {
   overflow: hidden;
   background-color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Navbar links */
@@ -27,6 +35,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Links - change color on hover */
@@ -51,6 +60,7 @@ h1 {
 /* Makes h2 teal */
 h2 {
   color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Makes profile image round */
@@ -64,12 +74,14 @@ img {
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
+  color: #777777;
   }
+
 
 .contact {
   width: 960px;
   margin: auto;
-  border: 1px solid grey;
+  border: 1px solid #dddddd;
   padding: 10px;
   background-color: white;
 }
@@ -89,17 +101,17 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #cccccc;
+  background-color: white;
   color: white;
   padding: 12px 20px;
-  border: none;
+  border: 1px solid #dddddd;
   border-radius: 4px;
   cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker grey color */
 input[type=submit]:hover {
-  background-color: #363636;
+  background-color: #666666;
 }
 
 /* Add a background color and some padding around the form */
@@ -109,7 +121,15 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-
+/* Footer style */
 .footer {
   width: 960px
+}
+
+footer {
+  background-color: #666666;
+}
+
+#copyright {
+  color: white;
 }
