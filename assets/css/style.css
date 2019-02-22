@@ -18,7 +18,8 @@ body {
 header {
   background-color: #ffffff;
   border-bottom: 10 px solid #dddddd;
-  padding: 40px;
+  padding: 20px; 
+  overflow: auto;
 }
 
 .clearfix::after {
@@ -36,16 +37,18 @@ h1 {
   background-color: #4aaaa5;
   color:#ffffff;
   display: inline;
+  float: left;
 }
 
 .nav {
   display: inline-block;
   float: right; 
+  position: relative; 
+  top: 50px;
 }
 
 ul li { 
   display: inline-block;
-  color: black;
   margin-left: 20px; 
 }
 
@@ -54,11 +57,36 @@ li {
   list-style: none;
 }
 
+/* Styles nav links and removes underline */
+li a {
+  color: #777777;
+  text-decoration: none;
+  padding: 10px;
+  
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #4aaaa5;;
+  color: white;
+}
+
+/* Adds dividers between top nav links */
+nav li + li:before{
+  content: " | ";
+  text-align: center;
+  padding-right: 20px;
+} 
+
+/* About section styling */
+.about {
+}
+
 /* Makes h2 teal */
 h2 {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
 }
 
