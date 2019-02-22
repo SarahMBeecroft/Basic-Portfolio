@@ -1,52 +1,52 @@
-/* Centers and sets margin for all div to 960 px*/
-* {
-  background: white; 
-}
-
-div {
-  width: 960px;
+/* Sets max-width to 960 for all content (except header), centers, and adds white background */
+div { 
+  max-width: 960px; 
   margin: auto;
   background: white;
-}
+  }
 
 /* Adds background image to site, sets background color, and font*/
 body {
   background-image: url("../../assets/images/stripes-light.png");
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  color: #777777; 
+  color: #777777;
+  margin: 0; 
  }
  
 /* Header style */ 
 header {
   background-color: #ffffff;
-  bottom border: 1 px solid #dddddd;
+  border-bottom: 10 px solid #dddddd;
+  padding: 40px;
 }
 
-.topnav {
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* Makes h1 white and sets font*/
 h1 {
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif; 
-  padding: 10px;
+  padding: 20px;
   font-size:32px;
   background-color: #4aaaa5;
   color:#ffffff;
-  float: left; 
-  }
+  display: inline;
+}
 
 .nav {
   display: inline-block;
+  float: right; 
 }
 
 ul li { 
   display: inline-block;
   color: black;
-  margin-left: 20px;
-  float: right; 
+  margin-left: 20px; 
 }
 
 /* Removes bullet points from list */
@@ -58,8 +58,8 @@ li {
 h2 {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 10px;
-  padding: 10px;
+  margin: 20px;
+  padding: 20px;
 }
 
 /* Image styling */
