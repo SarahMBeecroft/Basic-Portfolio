@@ -1,11 +1,15 @@
 /* Centers and sets margin for all div to 960 px*/
+* {
+  background: white; 
+}
+
 div {
   width: 960px;
   margin: auto;
   background: white;
 }
 
-/* Adds background image to site */
+/* Adds background image to site, sets background color, and font*/
 body {
   background-image: url("../../assets/images/stripes-light.png");
   background-color: white;
@@ -16,7 +20,11 @@ body {
 /* Header style */ 
 header {
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  bottom border: 1 px solid #dddddd;
+}
+
+.topnav {
+
 }
 
 /* Makes h1 white and sets font*/
@@ -27,9 +35,24 @@ h1 {
   font-size:32px;
   background-color: #4aaaa5;
   color:#ffffff;
-  margin: 10px;
+  float: left; 
   }
 
+.nav {
+  display: inline-block;
+}
+
+ul li { 
+  display: inline-block;
+  color: black;
+  margin-left: 20px;
+  float: right; 
+}
+
+/* Removes bullet points from list */
+li {
+  list-style: none;
+}
 
 /* Makes h2 teal */
 h2 {
@@ -52,7 +75,7 @@ img {
   padding: 50px;
 }
   
-
+/* Paragraph about me */
 .contact {
   width: 960px;
   margin: auto;
