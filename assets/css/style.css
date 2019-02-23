@@ -7,7 +7,7 @@ div {
 
 /* Adds background image to site, sets background color, and font*/
 body {
-  background-image: url("../../assets/images/stripes-light.png");
+  background-image: url("../../assets/images/leaves-pattern.png");
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   color: #777777;
@@ -82,6 +82,8 @@ nav li + li:before{
 
 /* About section styling */
 .about {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* Makes h2 teal */
@@ -117,7 +119,7 @@ h2 {
 
 
 
-
+/* Portfolio */
 /* Portfolio grid styling */
 
 .row {
@@ -142,21 +144,24 @@ img {
   color: white;
 }
 
-/* Adds style to text over portfolio images  */
+/* Adds style to text blocks over portfolio images and moves to bottom-center */
 .bottom-center {
   position: absolute;
-  bottom: 25px;
-  width: 190px; 
+  bottom: 30px;
+  width: 246px; 
   height: 30px;
-  left: 30px;
-  padding: 5px;
+  left: 20px;
+  padding: 12px;
   background: #4aaaa5;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
-
+.portfolio {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
 
 
 
@@ -193,6 +198,11 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.contactform {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 
