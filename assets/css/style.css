@@ -40,6 +40,9 @@ h1 {
   color:#ffffff;
   display: inline;
   float: left;
+  position: relative; 
+  top: 32px;
+  left: 8px;
 }
 
 .nav {
@@ -119,6 +122,8 @@ h2 {
 
 
 
+
+
 /* Portfolio */
 /* Portfolio grid styling */
 
@@ -162,6 +167,9 @@ img {
   padding-bottom: 20px;
   margin-bottom: 40px;
 }
+
+
+
 
 
 
@@ -209,20 +217,24 @@ input[type=submit]:hover {
 
 
 
-/* Footer style */
-.footer {
-  width: 960px;
-  text-align: center;
-}
 
-footer {
+/* Styles footer and fixes it to bottom */
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 960 px;
+  text-align: center;
   background-color: #666666;
   border-top: 8px solid #4aaaa5;
   width: 960px;
-  padding-bottom: 10px;
 }
 
 #copyright {
   color: white;
+  font-size: 12px;
+  position: relative; 
+  top: 10px; 
 }
 
