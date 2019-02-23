@@ -92,8 +92,8 @@ h2 {
   padding: 20px;
 }
 
-/* Image styling */
-img {
+/* Profile photo styling */
+#profilephoto {
     margin: 0 auto;
     padding: 20px; 
     float: left;
@@ -113,6 +113,52 @@ img {
   padding: 20px;
   background-color: white;
 }
+
+
+
+
+
+/* Portfolio grid styling */
+
+.row {
+  display: flex;
+}
+
+.column {
+  margin: 10px;
+}
+
+/* Image styling  */
+img {
+  padding: 10px; 
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+/* Container holding the image and the text */
+.image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Adds style to text over portfolio images  */
+.bottom-center {
+  position: absolute;
+  bottom: 30px;
+  width: 190px; 
+  height: 30px;
+  left: 30px;
+  padding: 5px;
+  background: #4aaaa5;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+
+
+
 
 /* Contact form styling */
 
@@ -148,6 +194,10 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+
+
+
 
 /* Footer style */
 .footer {
