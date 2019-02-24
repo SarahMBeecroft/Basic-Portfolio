@@ -20,7 +20,8 @@ header {
   background-color: #ffffff;
   padding: 20px; 
   overflow: hidden; /* Removes scroll bar from header  */
-  border-bottom:1px solid #dddddd;(0,0,0);padding-bottom:10px;
+  border-bottom:1px solid #dddddd;
+  padding-bottom:10px;
 }
 
 /* Clears h1 and nav bar */
@@ -123,7 +124,6 @@ h2 {
   padding: 20px;
   background-color: white;
 }
-
 
 
 
@@ -235,7 +235,6 @@ input[type=submit]:hover {
   text-align: center;
   background-color: #666666;
   border-top: 8px solid #4aaaa5;
-  width: 960px;
 }
 
 #copyright {
