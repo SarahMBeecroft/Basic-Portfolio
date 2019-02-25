@@ -15,6 +15,12 @@ body {
   line-height: 1.7em; 
  }
  
+
+
+
+
+
+/* Header */
 /* Header style - adds background color, padding, and bottom border */ 
 header {
   background-color: #ffffff;
@@ -31,30 +37,30 @@ header {
   display: table;
 }
 
-/* Makes h1 white and sets font*/
+/* Adds styling to h1 (name) */
 h1 {
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif; 
-  padding: 20px;
+  padding: 25px;
   font-size:32px;
   background-color: #4aaaa5;
   color:#ffffff;
   display: inline;
-  float: left;
   position: relative; 
-  top: 32px;
+  float: left;
+  top: 32px;  /*  Moves inline with navigation links */
 }
-
 
 /* Nav bar styling */
 .nav {
-  display: inline-block;
+  display: inline-block;  /* Puts navigation links inline horizontally instead of vertically */
   float: right; 
   position: relative; 
   top: 50px;
   overflow: hidden;
 }
 
+/* Navigation links positioning */
 ul li { 
   display: inline-block;
   margin-left: 20px; 
@@ -73,8 +79,8 @@ li a {
   
 }
 
-/* Change the link and background color on hover */
-li a:hover {
+/* Changes link font and background color on hover */
+a:hover {
   background-color: #4aaaa5;;
   color: white;
 }
@@ -85,6 +91,11 @@ nav li + li:before{
   text-align: center;
   padding-right: 20px;
 } 
+
+
+
+
+
 
 /* About section styling */
 .about {
@@ -116,15 +127,6 @@ h2 {
   padding: 20px;
 }
   
-/* Paragraph about me */
-.contact {
-  width: 960px;
-  margin: auto;
-  border: 1px solid #dddddd;
-  padding: 20px;
-  background-color: white;
-}
-
 
 
 
@@ -179,9 +181,8 @@ img {
 
 
 
+/* Contact */
 /* Contact form styling */
-
-
 .contactform {
   max-width: 960px; 
   padding-bottom: 20px;
@@ -203,7 +204,6 @@ input[type=text], select, textarea {
   margin-bottom: 16px;  
 }
 
-
 /* Styles the "submit button" */
 input[type=submit] {
   background-color: #4aaaa5;
@@ -224,18 +224,18 @@ input[type=submit]:hover {
 
 
 
-
+/* Footer */
 /* Styles footer and fixes it to bottom */
 .footer {
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 960 px;
   text-align: center;
   background-color: #666666;
   border-top: 8px solid #4aaaa5;
-}
+  box-shadow: 0 50vh 0 50vh white; /* Extends footer to full width of page and makes background white */
+  }
 
 #copyright {
   color: white;
