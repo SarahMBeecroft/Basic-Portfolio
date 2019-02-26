@@ -115,6 +115,12 @@ h2 {
   margin-top: 20px;
 }
 
+/* Adds line break beneath h2 */
+hr {
+  width: 95%;
+  border: 1.5px solid #dddddd;
+}
+
 /* Profile photo styling */
 #profilephoto {
     margin: 0 auto;
