@@ -56,14 +56,15 @@ h1 {
   display: inline-block;  /* Puts navigation links inline horizontally instead of vertically */
   float: right; 
   position: relative; 
-  top: 50px;
   overflow: hidden;
+  top: 65px;
 }
 
 /* Navigation links positioning */
 ul li { 
   display: inline-block;
   margin-left: 20px; 
+  top: 10px;
 }
 
 /* Removes bullet points from list */
